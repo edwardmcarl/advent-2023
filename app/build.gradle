@@ -23,6 +23,7 @@ dependencies {
 
     // This dependency is used by the application.
     implementation libs.guava
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.14.0'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
